@@ -1,50 +1,57 @@
 ---
-title: Welcome
-permalink: /docs/home/
+title: Documentation
+permalink: /docs/
 redirect_from: /docs/index.html
 ---
 
-## Getting started
+## First Setup
 
-[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
-Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `docs` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
-The good thing about coupling your documentation with the source repo is, whenever you merge features with regarding content to master branch, it will also be published on the webpage instantly.
+When first obtained uLI, you should remember to setup it correctly.
 
-1. Just [download the source](https://github.com/aksakalli/jekyll-doc-theme/archive/gh-pages.zip) into your repo under `docs` folder.
-2. Edit site settings in  `_config.yml` file according to your project. !!! `baseurl` should be your website's relative URI like `/my-proj` !!!
-3. Replace `favicon.ico` and `img/logonav.png` with your own logo.
+ 1. **Connect uLI to the PC.**
 
-## Writing content
+    Use simple USB A-B cable. On some operating systems, driver will install
+    automatically. If not, you may either download our [pre-extracted
+    driver](https://github.com/kmzbrnoI/uLI-fw/tree/master/driver_win) or install
+    *CDC* driver from official [Microchip Libraries for Applications
+    ](http://www.microchip.com/mplab/microchip-libraries-for-applications).
 
-### Docs
+    When uLI initializes communication with PC, one of the green LEDs should
+    turn off.
 
-Docs are [collections](https://jekyllrb.com/docs/collections/) of pages stored under `_docs` folder. To create a new page:
+ 2. **Connect uLI to the XpressNET.**
 
-**1.** Create a new Markdown as `_docs/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
+    Use standard 4-wire or 6-wire direct cable from command station or any
+    XpressnET hub connected to command station. This is the same cable as for
+    example Roco Multimaus uses.
 
-```
----
-title: My Page
-permalink: /docs/my-page/
----
+    uLI has two XpressNET connectors mutually connected, so you may use uLI
+    as an XpressNET hub.
 
-Hello World!
-```
+ 3. **Connect uLI to an application**
 
-**2.** Add the pagename to `_data/docs.yml` file in order to list in docs navigation panel:
+    Use serial port device assigned to uLI. \\
+    **Important:** use
+     * **any** baud rate and
+     * **no flow control**.
 
-```
-- title: My Group Title
-  docs:
-  - my-page
-```
+## Sources
 
-### Blog posts
+ * PCB design is available in this repository: \\
+   [https://github.com/kmzbrnoI/uLI-pcb](https://github.com/kmzbrnoI/uLI-pcb)
 
-Add a new Markdown file such as `2017-05-09-my-post.md` and write the content similar to other post examples.
+ * Source code of firmware is available in this repository: \\
+   [https://github.com/kmzbrnoI/uLI-fw](https://github.com/kmzbrnoI/uLI-fw)
 
-### Pages
+Please see [README](https://github.com/kmzbrnoI/uLI-fw/blob/master/README.md)
+file for technical details.
 
-The homepage is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap components](http://getbootstrap.com/components/))
+## Contribution
 
-In order to add a new page, create a new `.html` or `.md` (markdown) file under root directory and link it in `_includes/topnav.html`.
+Found a bug? Want to submit a new feature? Submit an
+[issue](https://github.com/kmzbrnoI/uLI-fw/issues) or open a
+[pull request](https://github.com/kmzbrnoI/uLI-fw/pulls) on GitHub.
+
+Or you may simply write an e-mail to the maintainer:
+
+ * Jan Horacek: [jan.horacek@kmz-brno.cz](mailot:jan.horacek@kmz-brno.cz)
