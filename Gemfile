@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
+Encoding.default_external = Encoding::UTF_8
 
 gem "jekyll", "3.4.3"
 
