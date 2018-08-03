@@ -1,7 +1,6 @@
 ---
 title: Documentation
 permalink: /docs/
-redirect_from: /docs/index.html
 ---
 
 ## First Setup
