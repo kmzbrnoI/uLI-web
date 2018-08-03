@@ -22,8 +22,8 @@ When first obtained uLI, you should remember to setup it correctly.
  2. **Connect uLI to the XpressNET.**
 
     Use standard 4-wire or 6-wire direct cable from command station or any
-    XpressnET hub connected to command station. This is the same cable as for
-    example Roco Multimaus uses.
+    XpressNET hub connected to the command station. This is the same cable as
+    for example Roco multiMaus uses.
 
     uLI has two XpressNET connectors mutually connected, so you may use uLI
     as an XpressNET hub.
