@@ -3,6 +3,7 @@ title: Ultimate LI
 email: jan.horacek@kmz-brno.cz
 description: Ultimate LI in a DIY implementation of Lenz Interface.
 author: Jan Horacek, KMZ Brno I
+keywords: uLI, Ultimate LI, Lenz, Interface, XpressNET, USB, Serial port
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://uli.kmz-brno.cz/ # the base hostname & protocol for your site
