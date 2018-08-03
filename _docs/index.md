@@ -56,6 +56,4 @@ Or you may simply write an e-mail to the maintainer:
 
  * Jan Horacek: [jan.horacek@kmz-brno.cz](mailot:jan.horacek@kmz-brno.cz)
 
-<div class="col-md-6 text-center">
-    <img src="/img/uLI-open.jpg" alt="" class="img-responsive">
-</div>
+<img src="/img/uLI-open.jpg" alt="" class="img-responsive">
