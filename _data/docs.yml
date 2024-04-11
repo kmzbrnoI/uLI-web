@@ -1,3 +1,6 @@
-- title: Documentation
+- title: uLI
   docs:
-  - home
+  - connection
+  - sources
+  - testing
+  - contribution
